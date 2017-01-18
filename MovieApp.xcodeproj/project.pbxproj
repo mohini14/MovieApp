@@ -20,6 +20,7 @@
 		159C98041E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FF1E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg */; };
 		159C980A1E2F3F560060DF13 /* MovieCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C98091E2F3F560060DF13 /* MovieCellTableViewCell.m */; };
 		159C98101E2F449D0060DF13 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C980F1E2F449D0060DF13 /* MovieViewController.m */; };
+		159C98181E2F863D0060DF13 /* MovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C98171E2F863D0060DF13 /* MovieDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		159C98091E2F3F560060DF13 /* MovieCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCellTableViewCell.m; sourceTree = "<group>"; };
 		159C980E1E2F449D0060DF13 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		159C980F1E2F449D0060DF13 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		159C98161E2F863D0060DF13 /* MovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetails.h; sourceTree = "<group>"; };
+		159C98171E2F863D0060DF13 /* MovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		156620451E2F3A3400ADAA45 = {
 			isa = PBXGroup;
 			children = (
+				159C98161E2F863D0060DF13 /* MovieDetails.h */,
+				159C98171E2F863D0060DF13 /* MovieDetails.m */,
 				159C980E1E2F449D0060DF13 /* MovieViewController.h */,
 				159C980F1E2F449D0060DF13 /* MovieViewController.m */,
 				159C98081E2F3F560060DF13 /* MovieCellTableViewCell.h */,
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156620561E2F3A3500ADAA45 /* AppDelegate.m in Sources */,
+				159C98181E2F863D0060DF13 /* MovieDetails.m in Sources */,
 				159C98101E2F449D0060DF13 /* MovieViewController.m in Sources */,
 				156620701E2F3C6400ADAA45 /* Movie.m in Sources */,
 				159C980A1E2F3F560060DF13 /* MovieCellTableViewCell.m in Sources */,

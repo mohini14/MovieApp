@@ -9,12 +9,17 @@
 #import "MovieViewController.h"
 #import "Movie.h"
 #import "MovieCellTableViewCell.h"
+#import "MovieDetails.h"
 
 @interface MovieViewController ()
 
 @end
 
-@implementation MovieViewController
+@implementation MovieViewController{
+	NSArray *moviesD;
+}
+
+@synthesize tableView; // Add this line of code
 
 - (void)viewDidLoad
 {
@@ -23,7 +28,7 @@
 	self.movies = [NSMutableArray arrayWithCapacity:5];
 	
 	Movie *movie = [[Movie alloc] init];
-	movie.title = @"The Shawshank Redemption";
+	movie.title = @"The Shawshank Redemptions";
 	movie.year = @"1994";
 	movie.poster = @"ShawshankRedemption_poster.jpg";
 	[self.movies addObject:movie];
@@ -79,8 +84,27 @@
 	cell.yearLabel.text = movie.year;
 	[cell.posterImageView setImage:[UIImage imageNamed:movie.poster]];
 	
+	if (cell == nil) {
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+	}
+	double numSections = [self numberOfSectionsInTableView:tableView];
+	double numRows = [self tableView:tableView numberOfRowsInSection:indexPath.section];
+	[cell setBackgroundColor:[UIColor colorWithRed:0.8/numRows*((double)indexPath.row)+0.2 green:0.8/numSections*((double)indexPath.section)+0.2 blue:((double)(random()%1000))/1000.0 alpha:1]];
+	return cell;
+	
 	
 	return cell;
+}
+
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+	if ([segue.identifier isEqualToString:@"ShowMovieDetails"]) {
+		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+		MovieDetails *destViewController = segue.destinationViewController;
+		destViewController.movie = [_movies objectAtIndex:indexPath.row];
+	}
 }
 
 /*

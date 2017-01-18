@@ -11,5 +11,6 @@
 
 @interface MovieViewController : UITableViewController
 @property (nonatomic,strong) NSMutableArray *movies;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end
