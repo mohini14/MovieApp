@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156620531E2F3A3500ADAA45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156620521E2F3A3500ADAA45 /* main.m */; };
+		156620561E2F3A3500ADAA45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156620551E2F3A3500ADAA45 /* AppDelegate.m */; };
+		1566205C1E2F3A3500ADAA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566205A1E2F3A3500ADAA45 /* Main.storyboard */; };
+		1566205E1E2F3A3500ADAA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566205D1E2F3A3500ADAA45 /* Assets.xcassets */; };
+		156620611E2F3A3500ADAA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566205F1E2F3A3500ADAA45 /* LaunchScreen.storyboard */; };
+		156620701E2F3C6400ADAA45 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1566206F1E2F3C6400ADAA45 /* Movie.m */; };
+		159C98001E2F3D910060DF13 /* PulpFiction_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FB1E2F3D910060DF13 /* PulpFiction_poster.jpg */; };
+		159C98011E2F3D910060DF13 /* ShawshankRedemption_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FC1E2F3D910060DF13 /* ShawshankRedemption_poster.jpg */; };
+		159C98021E2F3D910060DF13 /* TheGodfather_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FD1E2F3D910060DF13 /* TheGodfather_poster.jpg */; };
+		159C98031E2F3D910060DF13 /* TheGodfatherPart2_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FE1E2F3D910060DF13 /* TheGodfatherPart2_poster.jpg */; };
+		159C98041E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159C97FF1E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg */; };
+		159C980A1E2F3F560060DF13 /* MovieCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C98091E2F3F560060DF13 /* MovieCellTableViewCell.m */; };
+		159C98101E2F449D0060DF13 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C980F1E2F449D0060DF13 /* MovieViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1566204E1E2F3A3400ADAA45 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		156620521E2F3A3500ADAA45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		156620541E2F3A3500ADAA45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		156620551E2F3A3500ADAA45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1566205B1E2F3A3500ADAA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1566205D1E2F3A3500ADAA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		156620601E2F3A3500ADAA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		156620621E2F3A3500ADAA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1566206E1E2F3C6400ADAA45 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		1566206F1E2F3C6400ADAA45 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		159C97FB1E2F3D910060DF13 /* PulpFiction_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PulpFiction_poster.jpg; sourceTree = "<group>"; };
+		159C97FC1E2F3D910060DF13 /* ShawshankRedemption_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShawshankRedemption_poster.jpg; sourceTree = "<group>"; };
+		159C97FD1E2F3D910060DF13 /* TheGodfather_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfather_poster.jpg; sourceTree = "<group>"; };
+		159C97FE1E2F3D910060DF13 /* TheGodfatherPart2_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfatherPart2_poster.jpg; sourceTree = "<group>"; };
+		159C97FF1E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGoodTheBadAndTheUgly_poster.jpg; sourceTree = "<group>"; };
+		159C98081E2F3F560060DF13 /* MovieCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCellTableViewCell.h; sourceTree = "<group>"; };
+		159C98091E2F3F560060DF13 /* MovieCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCellTableViewCell.m; sourceTree = "<group>"; };
+		159C980E1E2F449D0060DF13 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		159C980F1E2F449D0060DF13 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1566204B1E2F3A3400ADAA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156620451E2F3A3400ADAA45 = {
+			isa = PBXGroup;
+			children = (
+				159C980E1E2F449D0060DF13 /* MovieViewController.h */,
+				159C980F1E2F449D0060DF13 /* MovieViewController.m */,
+				159C98081E2F3F560060DF13 /* MovieCellTableViewCell.h */,
+				159C98091E2F3F560060DF13 /* MovieCellTableViewCell.m */,
+				159C97FB1E2F3D910060DF13 /* PulpFiction_poster.jpg */,
+				159C97FC1E2F3D910060DF13 /* ShawshankRedemption_poster.jpg */,
+				159C97FD1E2F3D910060DF13 /* TheGodfather_poster.jpg */,
+				159C97FE1E2F3D910060DF13 /* TheGodfatherPart2_poster.jpg */,
+				159C97FF1E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg */,
+				1566206E1E2F3C6400ADAA45 /* Movie.h */,
+				1566206F1E2F3C6400ADAA45 /* Movie.m */,
+				156620501E2F3A3400ADAA45 /* MovieApp */,
+				1566204F1E2F3A3400ADAA45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1566204F1E2F3A3400ADAA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1566204E1E2F3A3400ADAA45 /* MovieApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		156620501E2F3A3400ADAA45 /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				156620541E2F3A3500ADAA45 /* AppDelegate.h */,
+				156620551E2F3A3500ADAA45 /* AppDelegate.m */,
+				1566205A1E2F3A3500ADAA45 /* Main.storyboard */,
+				1566205D1E2F3A3500ADAA45 /* Assets.xcassets */,
+				1566205F1E2F3A3500ADAA45 /* LaunchScreen.storyboard */,
+				156620621E2F3A3500ADAA45 /* Info.plist */,
+				156620511E2F3A3400ADAA45 /* Supporting Files */,
+			);
+			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		156620511E2F3A3400ADAA45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				156620521E2F3A3500ADAA45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1566204D1E2F3A3400ADAA45 /* MovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156620651E2F3A3500ADAA45 /* Build configuration list for PBXNativeTarget "MovieApp" */;
+			buildPhases = (
+				1566204A1E2F3A3400ADAA45 /* Sources */,
+				1566204B1E2F3A3400ADAA45 /* Frameworks */,
+				1566204C1E2F3A3400ADAA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieApp;
+			productName = MovieApp;
+			productReference = 1566204E1E2F3A3400ADAA45 /* MovieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		156620461E2F3A3400ADAA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mohini Sindhu ";
+				TargetAttributes = {
+					1566204D1E2F3A3400ADAA45 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 156620491E2F3A3400ADAA45 /* Build configuration list for PBXProject "MovieApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 156620451E2F3A3400ADAA45;
+			productRefGroup = 1566204F1E2F3A3400ADAA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1566204D1E2F3A3400ADAA45 /* MovieApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1566204C1E2F3A3400ADAA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156620611E2F3A3500ADAA45 /* LaunchScreen.storyboard in Resources */,
+				159C98031E2F3D910060DF13 /* TheGodfatherPart2_poster.jpg in Resources */,
+				1566205E1E2F3A3500ADAA45 /* Assets.xcassets in Resources */,
+				159C98001E2F3D910060DF13 /* PulpFiction_poster.jpg in Resources */,
+				159C98041E2F3D910060DF13 /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */,
+				159C98011E2F3D910060DF13 /* ShawshankRedemption_poster.jpg in Resources */,
+				1566205C1E2F3A3500ADAA45 /* Main.storyboard in Resources */,
+				159C98021E2F3D910060DF13 /* TheGodfather_poster.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1566204A1E2F3A3400ADAA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156620561E2F3A3500ADAA45 /* AppDelegate.m in Sources */,
+				159C98101E2F449D0060DF13 /* MovieViewController.m in Sources */,
+				156620701E2F3C6400ADAA45 /* Movie.m in Sources */,
+				159C980A1E2F3F560060DF13 /* MovieCellTableViewCell.m in Sources */,
+				156620531E2F3A3500ADAA45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1566205A1E2F3A3500ADAA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1566205B1E2F3A3500ADAA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1566205F1E2F3A3500ADAA45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156620601E2F3A3500ADAA45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		156620631E2F3A3500ADAA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		156620641E2F3A3500ADAA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		156620661E2F3A3500ADAA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mohini.MovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		156620671E2F3A3500ADAA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MovieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mohini.MovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156620491E2F3A3400ADAA45 /* Build configuration list for PBXProject "MovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156620631E2F3A3500ADAA45 /* Debug */,
+				156620641E2F3A3500ADAA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156620651E2F3A3500ADAA45 /* Build configuration list for PBXNativeTarget "MovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156620661E2F3A3500ADAA45 /* Debug */,
+				156620671E2F3A3500ADAA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 156620461E2F3A3400ADAA45 /* Project object */;
+}
